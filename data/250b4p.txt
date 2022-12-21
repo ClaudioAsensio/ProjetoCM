@@ -1,0 +1,42 @@
+Distance = 4 piso
+Size = 250 bytes
+Msg # 0
+�a0��f�Y���u:���p�\.��e��l�[-��e�Y��k5�M&��b1��f3�L�S)
+���p8��a���v��n���v;�N'����y<��g3��f3�L��i4���q�\.
+                                                  �������������_/�K����z�^/
+                                                                           �A��h4�M&��b��l6��q�\.
+                                                                                                 �@��h4������~�_/�K%��d�Y���u:
+Ack
+Round Trip Time = 429.225587 ms
+
+Msg # 1
+cm2022��a0
+          �A�P��j�Z-��b1�L���t�]���u:���������_/�K�R���u�].�K�R��j5��f3
+                                                                       ��`0�L&�I$��d2�L&��d2��f���v;��g�Y�V��j5�F�����|>���s��n7�M&  ��@�P��j��m��m�[-��j5
+                �A�P��j5��f�Y,
+                              ��`�X�V+�J���t:�G�Q�T*
+��
+Ack
+Round Trip Time = 431.556224 ms
+
+Msg # 2
+��p8�����|>��g3�F�Q(�E�Q�T*�E�Q(��e�Y,����x<�C��`��l6F�Q(�J%�I$���q8�N��i4�M&���r9�G���p8�G#�����|�_/
+�C��`0�L����z�^�W+�J%   ����x<��g3�L��i��m6F��h�Z-����y<�A�P(�E���                                   ���p8�N'�����|>�O��i4
+Ack
+Round Trip Time = 429.698467 ms
+
+Msg # 3
+��p8�G���p8�G�Q(���r�\. ��a�X,���r9��c1�L&��d��������?���s�\�W+����x��o7
+                       �����|>��c�X�V+�J�����}�_/
+C!��d2                                           ���p8����x<��g���v;�N��i��m��m��m6
+Ack
+Round Trip Time = 432.875823 ms
+
+Msg # 4
+���p�\�W�U�U�U*�J��i4�����|>����x��o���v�]����z��o7��f��l�[�V����������_��k�Z��k�Z��k5�M�S)����x����{=�C��h�Z-
+                                                                                                              �B�A �D"�H$���q8�N�S)���r9��g3�F�A ���r��n�[-�E�Q�T��j�Z-
+                                 �@
+Ack
+Round Trip Time = 429.682874 ms
+
+Packet loss = 0.000000 
