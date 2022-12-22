@@ -1,0 +1,34 @@
+Distance = 0
+Size = 150 bytes
+Msg # 0
+cm2022  h4  c1 F# D Q T    z ^/
+                                  p   w ]   u  n [- E   t ] W+ J%        A   b1  f  l   v ]. K   t: N    z ^/
+                                                                                                              B!   r9 N'  d  l     }  o7  f Y,   
+Ack
+Round Trip Time = 294.262695 ms 
+
+Msg # 1
+cm2022   ~ _    z      ~? A      |>  g      ~  o7F#  b1   s9  c X,  e   v ]   u:   p8 A P T U* E" D    z  o7 M&    x< O      ~?  
+Ack
+Round Trip Time = 296.601581 ms 
+
+Msg # 2
+cm2022 p \. E    z ^   u  n  m6F  h4 F# H$ I$ D Q(   r9 C   t ] W+    x<   p8  g3 F# D Q T*
+  a X,   q    {  o  m [  k  m [-   r \ W  j 
+Ack
+Round Trip Time = 293.199081 ms 
+
+Msg # 3
+cm2022Z- K%    y         _/
+                            @ P(   r \   u: N' I$         a  l [  k      ~?     |  o [    z ^/ E  h Z-      ~   w; A   t: @         ? O  i4
+Ack
+Round Trip Time = 294.534568 ms 
+
+Msg # 4
+cm2022 F# D Q  j Z     }>   s  n       ?            _/
+                                                           | _/
+  `0 F        ? O'                                              B   t ].         o   v;  a0  c1 L  i4
+Ack
+Round Trip Time = 298.599929 ms 
+
+Packet loss = 0.000000 

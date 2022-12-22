@@ -7,19 +7,20 @@ import pycom
 
 lora = LoRa(mode=LoRa.LORA, region=LoRa.EU868)
 s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
+print("Node A initiated")
+
 s.setblocking(False)
 pycom.heartbeat(False)
+pycom.rgbled(0xFF0000)  #Red
+
 chrono = Timer.Chrono()
-rnd = ''
 n_sent = 0
 n_recv = 0
-pl = 1
 n_messages = 5
 rtt = []
-distance = '4 piso'
+distance = '0'
 size = 250
-rnd_size = size - 6
-pycom.rgbled(0xFF0000)  #Red
+rnd_size = size - 6 # ter em conta o size de 'cm2022'
 print("Distance = %s" % distance)
 print("Size = %d bytes" % size)
 for i in range(n_messages):
@@ -32,9 +33,7 @@ for i in range(n_messages):
     chrono.reset()
     chrono.start()
     data = s.recv(64)
-
-    while chrono.read() <= 5:
-        # print(data)
+    while chrono.read() <= 5:   # Timeout = 5 seg
         if data == b'Ack-cm2022':
             n_recv += 1
             lap = chrono.read_ms()
@@ -48,6 +47,7 @@ for i in range(n_messages):
             break
         elif int(chrono.read())==5:
             rtt.append(None)
+            print("Timeout msg %d" % i)
         data = s.recv(64)
     time.sleep(2)
 
