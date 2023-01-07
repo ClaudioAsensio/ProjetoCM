@@ -1,7 +1,7 @@
 # ProjetoCM
 Projeto Lora 1 da U.C Comunicações Moveis  
   
-  Na pasta apps encontram-se os códigos utilizados para obter os dados e utlizados na demonstração.  
+  Na pasta apps encontram-se os códigos utilizados e todos os dados recolhidos.  
   
 
 Desenvolvido com:  
